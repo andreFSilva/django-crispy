@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "django-crispy"
+version = "0.1.0"
+description = "Sistema com django e form crispy"
+authors = ["andreFSilva <andrealekhine@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0"
+django-extensions = "^3.2.3"
+pillow = "^10.1.0"
+psycopg2-binary = "^2.9.9"
+python-decouple = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+blue = "^0.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
