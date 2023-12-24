@@ -150,6 +150,17 @@ pycodestyle = ">=2.8.0,<2.9.0"
 pyflakes = ">=2.4.0,<2.5.0"
 
 [[package]]
+name = "ignr"
+version = "2.2"
+description = "Python command line client to download.gitignore templates from gitignore.io"
+optional = false
+python-versions = "*"
+files = [
+    {file = "ignr-2.2-py3-none-any.whl", hash = "sha256:e8b6276aedab79b066d795e6e4b3f7b4c5668b68bf50a6c4fbf2b0cd17dda1db"},
+    {file = "ignr-2.2.tar.gz", hash = "sha256:382a81be67a34538a11ff8ab69063419b388cc32f01b4ace599c3f1c06526df4"},
+]
+
+[[package]]
 name = "mccabe"
 version = "0.6.1"
 description = "McCabe checker, plugin for flake8"
@@ -419,4 +430,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "e913cd02834ae7628b3be2b9d4d7b9f5f0b7d354b0ae8cb0ef9b77881efdf4e1"
+content-hash = "c6b85b01dee5e7dd380ac97472b6a96568d3e9baed1192be00c70b7c67832c3f"
